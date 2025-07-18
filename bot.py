@@ -10,23 +10,46 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # --- Product Catalog ---
 # This is where you manage your products. It's designed to be easy to customize.
-# To add a new category, just add a new entry like "gems", "rings", etc.
-# To add a new product, add a new item within a category's "items" list.
+# I have added your new gems below.
 PRODUCTS = {
     "gems": {
-        "name": "💎 Gems",
+        "name": "💎 Gems (ကျောက်မျက်များ)",
         "items": {
             "gem1": {
-                "name": "Loose Amethyst",
-                "price": 50.00,
-                "description": "A beautiful, deep purple loose amethyst, perfect for custom jewelry.",
-                "image_url": "https://placehold.co/600x600/E9D8FD/6B46C1?text=Amethyst+Gem"
+                "name": "နီလာ (Sapphire)",
+                "price": 300.00,
+                "description": "A deep blue, high-quality sapphire.",
+                "image_url": "https://placehold.co/600x600/3A5FCD/FFFFFF?text=နီလာ"
             },
             "gem2": {
-                "name": "Polished Rose Quartz",
-                "price": 45.00,
-                "description": "A smooth, polished rose quartz stone, known for its calming energy.",
-                "image_url": "https://placehold.co/600x600/FED7D7/9B2C2C?text=Rose+Quartz"
+                "name": "ပတ္တမြား (Ruby)",
+                "price": 500.00,
+                "description": "A vibrant red ruby, the king of gems.",
+                "image_url": "https://placehold.co/600x600/E0115F/FFFFFF?text=ပတ္တမြား"
+            },
+            "gem3": {
+                "name": "သူယောင်",
+                "price": 150.00,
+                "description": "A beautiful and unique Thuyawng gemstone.",
+                "image_url": "https://placehold.co/600x600/F0E68C/000000?text=သူယောင်"
+            },
+            "gem4": {
+                "name": "ခရမ်းဆွဲ (Amethyst)",
+                "price": 120.00,
+                "description": "A stunning purple amethyst with excellent clarity.",
+                "image_url": "https://placehold.co/600x600/9966CC/FFFFFF?text=ခရမ်းဆွဲ"
+            },
+            "gem5": {
+                "name": "Blue Topaz",
+                "price": 180.00,
+                "description": "A brilliant, sky-blue topaz gemstone.",
+                "image_url": "https://placehold.co/600x600/72BCD4/FFFFFF?text=Blue+Topaz"
+            },
+            "gem6": {
+                "name": "စလင်းဝါ (Yellow Gem)",
+                "price": 160.00,
+                "description": "A bright yellow gemstone, full of light.",
+                "image_url": "https://placehold.co/600x600/FFD700/000000?text=စလင်းဝါ"
             }
         }
     },
@@ -38,12 +61,6 @@ PRODUCTS = {
                 "price": 120.00,
                 "description": "An ethereal moonstone set in a delicate sterling silver band. Captures the light beautifully.",
                 "image_url": "https://placehold.co/600x600/E2E8F0/4A5568?text=Moonstone+Ring"
-            },
-            "ring2": {
-                "name": "Emerald Isle Ring",
-                "price": 250.00,
-                "description": "A vibrant, lab-grown emerald that evokes the magic of nature. 14k gold plated.",
-                "image_url": "https://placehold.co/600x600/C6F6D5/2F855A?text=Emerald+Ring"
             }
         }
     },
